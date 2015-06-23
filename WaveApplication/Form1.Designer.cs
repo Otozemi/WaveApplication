@@ -37,17 +37,17 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(171, 84);
+            this.button1.Location = new System.Drawing.Point(180, 94);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "tweet_update";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(171, 113);
+            this.button2.Location = new System.Drawing.Point(180, 190);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(34, 120);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(80, 16);
             this.checkBox1.TabIndex = 3;
@@ -76,6 +76,8 @@
             // 
             // panel1
             // 
+            this.panel1.AutoScroll = true;
+            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.panel1.Location = new System.Drawing.Point(403, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(289, 385);
