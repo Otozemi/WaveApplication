@@ -7,16 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Resources;
 
 namespace WaveApplication
 {
-    public partial class Form1 : Form
+    
+    public partial class BuStream : Form
     {
+        const int classnum = 5;//登録人数
+        const int datanum = 100 * classnum;//データ数
         internal List<PictureBox> clist = new List<PictureBox>();  //textbox格納リスト
 
-        public Form1()
+        public BuStream()
         {
             InitializeComponent();
+            
         }
 
 
@@ -52,32 +58,63 @@ namespace WaveApplication
         //ブロックの設定とリストへの登録
         private void set_Block(string tweet_content, Image img, int point) //point==clist.Count ⇒　末尾に追加
         {
-            PictureBox pb = new PictureBox();
-            //画像の大きさをPictureBoxに合わせる
-            pb.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb.Left = 40;
-            //pb.Name = prop_name;
-            pb.AllowDrop = true;
+            string filename;
+            Tweet[] tw = new Tweet[datanum];
 
-            //ImageオブジェクトのGraphicsオブジェクトを作成する
-            Graphics g = Graphics.FromImage(img);
+            for (int i = 1; i <= datanum; i++)
+            {
+                if (i == 3) break;
+                filename = "1";
+                tw[i] = new Tweet(filename);
 
-            //Graphicsオブジェクトに文字列を描画する
-            this.Font = new Font("Arial", 12);
+                PictureBox pb = new PictureBox();
+                //画像の大きさをPictureBoxに合わせる
+                pb.SizeMode = PictureBoxSizeMode.StretchImage;
+                pb.Left = 40;
+                //pb.Name = prop_name;
+                pb.AllowDrop = true;
 
-            g.DrawString(tweet_content, this.Font, Brushes.Black, 50, 50);
-            g.Dispose();
+                //ImageオブジェクトのGraphicsオブジェクトを作成する
+                Graphics g = Graphics.FromImage(img);
 
-            //PictureBoxのImageプロパティに設定する 
-            pb.Image = img;
+                //Graphicsオブジェクトに文字列を描画する
+                //this.Font = new Font("Arial", 12);
 
-            clist.Insert(point, pb);
+                g.DrawString(tw[i].tweet, this.Font, Brushes.Black, 50, 50);
+                g.Dispose();
+
+                //PictureBoxのImageプロパティに設定する 
+                pb.Image = img;
+
+                clist.Insert(point, pb);
+            }
         }
         //-------------------------------------------------------------------------------------------
         private void button1_Click(object sender, EventArgs e)
         {
             set_Block("ツイート内容", Properties.Resources.図1, clist.Count);
             tweetbox_View();
+
+        }
+    }
+    class Tweet
+    {
+        public string tweetname;
+        public int tweetdate;
+        public int tweettime;
+        public string artist;
+        public string tweet;
+        public Tweet(string filename)
+        {
+            var sname = new ResourceManager(typeof(Program).Assembly.GetName().Name + ".Properties.Resources", typeof(Program).Assembly);
+            var path = "tweet" + filename;
+            var a = sname.GetString(path);
+            var h = a.Split(',');
+            tweetname = h[0];
+            tweetdate = int.Parse(h[1]);
+            tweettime = int.Parse(h[2]);
+            artist = h[3];
+            tweet = h[4];
 
         }
     }
