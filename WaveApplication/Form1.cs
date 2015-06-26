@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Resources;
+using System.Reflection;
 
 namespace WaveApplication
 {
@@ -94,7 +95,8 @@ namespace WaveApplication
         {
             set_Block("ツイート内容", Properties.Resources.図1, clist.Count);
             tweetbox_View();
-
+            axWindowsMediaPlayer1.settings.autoStart = false;
+            axWindowsMediaPlayer1.URL = "Perfume_globalsite_sound.wav";
         }
     }
     class Tweet

@@ -61,6 +61,15 @@ namespace WaveApplication.Properties {
         }
         
         /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Perfume_globalsite_sound {
+            get {
+                return ResourceManager.GetStream("Perfume_globalsite_sound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   あんり,0623,1330,BumpOfBeef,今日はＢＯＢのライブ！ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string tweet1 {
