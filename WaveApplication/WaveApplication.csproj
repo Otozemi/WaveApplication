@@ -83,6 +83,9 @@
     <None Include="Resources\tweet1.txt" />
     <None Include="Resources\back.bmp" />
     <None Include="Resources\Perfume_globalsite_sound.wav" />
+    <None Include="Resources\再生ボタン.png" />
+    <None Include="Resources\再生ボタン２.png" />
+    <None Include="Resources\停止ボタン.png" />
     <Content Include="Resources\図1.png" />
   </ItemGroup>
   <ItemGroup>

@@ -81,6 +81,36 @@ namespace WaveApplication.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
+        internal static System.Drawing.Bitmap 停止ボタン {
+            get {
+                object obj = ResourceManager.GetObject("停止ボタン", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap 再生ボタン {
+            get {
+                object obj = ResourceManager.GetObject("再生ボタン", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap 再生ボタン２ {
+            get {
+                object obj = ResourceManager.GetObject("再生ボタン２", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
         internal static System.Drawing.Bitmap 図1 {
             get {
                 object obj = ResourceManager.GetObject("図1", resourceCulture);

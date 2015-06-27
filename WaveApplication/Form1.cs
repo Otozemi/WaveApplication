@@ -18,6 +18,8 @@ namespace WaveApplication
     {
         const int classnum = 5;//登録人数
         const int datanum = 100 * classnum;//データ数
+        public bool eventflag = true;
+        public System.Media.SoundPlayer sp;
         internal List<PictureBox> clist = new List<PictureBox>();  //textbox格納リスト
 
         public BuStream()
@@ -93,10 +95,55 @@ namespace WaveApplication
         //-------------------------------------------------------------------------------------------
         private void button1_Click(object sender, EventArgs e)
         {
-            set_Block("ツイート内容", Properties.Resources.図1, clist.Count);
-            tweetbox_View();
-            axWindowsMediaPlayer1.settings.autoStart = false;
-            axWindowsMediaPlayer1.URL = "Perfume_globalsite_sound.wav";
+            
+            
+            //axWindowsMediaPlayer1.URL = "Perfume_globalsite_sound.wav";
+            
+                set_Block("ツイート内容", Properties.Resources.図1, clist.Count);
+                tweetbox_View();
+                axWindowsMediaPlayer1.settings.autoStart = false;
+                sp = new System.Media.SoundPlayer(Properties.Resources.Perfume_globalsite_sound);
+            
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if(eventflag)
+            {
+                try
+                {
+                    eventflag = false;
+                    sp.Play();
+                    pictureBox2.Image = Properties.Resources.停止ボタン;
+                }
+                catch (NullReferenceException)
+                {
+                    eventflag = true;
+                }
+            }
+            else
+            {
+                eventflag = true;
+                sp.Stop();
+                pictureBox2.Image = Properties.Resources.再生ボタン２;
+            }
+        }
+
+        private void pictureBox2_MouseEnter(object sender, EventArgs e)
+        {
+            if(eventflag)
+            {
+                pictureBox2.Image = Properties.Resources.再生ボタン２;
+            }
+        }
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            if(eventflag)
+            {
+                pictureBox2.Image = Properties.Resources.再生ボタン;
+            }
         }
     }
     class Tweet
