@@ -33,18 +33,20 @@ namespace WaveApplication
         internal void tweetbox_View()
         {
             int top;
-            int y = 40; //ブロック描画開始位置
+            int y = 10; //ブロック描画開始位置
             int max_left = 0;
+            int HeightSize = Properties.Resources.図1.Height / 5 * 3;
+            int WidthSize = Properties.Resources.図1.Width / 5 * 3;
 
             panel1.AutoScrollPosition = new Point(0, 0);               //スクロールの位置を（0,0）にしてから描画
             panel1.Controls.Clear();
 
             for (int i = 0; i < clist.Count; i++)
             {
-                top = y + i * 200;
+                top = y + i * HeightSize;
                 clist[i].Top = top;
-                clist[i].Height = 200;
-                clist[i].Width = panel1.Width * 3 / 4;
+                clist[i].Height = HeightSize;
+                clist[i].Width = WidthSize;
                 clist[i].AutoSize = false;
                 // ドラッグ&ドロップを行なう時のドロップ先のコントロール（フォーム）に、ドロップを受け入れるように指示
                 clist[i].AllowDrop = true;
@@ -54,7 +56,7 @@ namespace WaveApplication
 
             }
             if (clist.Count > 1)
-                panel1.AutoScrollPosition = new Point(max_left, clist[clist.Count - 1].Top);
+                panel1.AutoScrollPosition = new Point(0, 0);
 
         }
         //-------------------------------------------------------------------------------------------
@@ -73,7 +75,7 @@ namespace WaveApplication
                 PictureBox pb = new PictureBox();
                 //画像の大きさをPictureBoxに合わせる
                 pb.SizeMode = PictureBoxSizeMode.StretchImage;
-                pb.Left = 40;
+                pb.Left = 10;
                 //pb.Name = prop_name;
                 pb.AllowDrop = true;
 
@@ -81,7 +83,7 @@ namespace WaveApplication
                 Graphics g = Graphics.FromImage(img);
 
                 //Graphicsオブジェクトに文字列を描画する
-                //this.Font = new Font("Arial", 12);
+                //this.Font = new Font("Arial", 8);
 
                 g.DrawString(tw[i].tweet, this.Font, Brushes.Black, 50, 50);
                 g.Dispose();
@@ -98,7 +100,7 @@ namespace WaveApplication
             
             
             //axWindowsMediaPlayer1.URL = "Perfume_globalsite_sound.wav";
-            
+            clist.Clear();
                 set_Block("ツイート内容", Properties.Resources.図1, clist.Count);
                 tweetbox_View();
                 axWindowsMediaPlayer1.settings.autoStart = false;
@@ -144,6 +146,11 @@ namespace WaveApplication
             {
                 pictureBox2.Image = Properties.Resources.再生ボタン;
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://www.perfume-web.jp/");
         }
     }
     class Tweet
