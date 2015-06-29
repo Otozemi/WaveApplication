@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Resources;
 using System.Reflection;
+using System.Diagnostics;
 
 namespace WaveApplication
 {
@@ -20,12 +21,14 @@ namespace WaveApplication
         const int datanum = 100 * classnum;//データ数
         public bool eventflag = true;
         public System.Media.SoundPlayer sp;
+        public string[] artist;
         internal List<PictureBox> clist = new List<PictureBox>();  //textbox格納リスト
+        public int check = 0;
 
         public BuStream()
         {
             InitializeComponent();
-            
+            artist = new string[] { "BOB", "BOC", "BOD", "BOE", "BOF" };
         }
 
 
@@ -68,9 +71,8 @@ namespace WaveApplication
 
             for (int i = 1; i <= datanum; i++)
             {
-                if (i == 3) break;
                 filename = "1";
-                tw[i] = new Tweet(filename);
+                tw[i-1] = new Tweet(filename);
 
                 PictureBox pb = new PictureBox();
                 //画像の大きさをPictureBoxに合わせる
@@ -85,28 +87,76 @@ namespace WaveApplication
                 //Graphicsオブジェクトに文字列を描画する
                 //this.Font = new Font("Arial", 8);
 
-                g.DrawString(tw[i].tweet, this.Font, Brushes.Black, 50, 50);
+                g.DrawString(tw[i-1].tweet, this.Font, Brushes.Black, 50, 50);
                 g.Dispose();
 
                 //PictureBoxのImageプロパティに設定する 
                 pb.Image = img;
 
                 clist.Insert(point, pb);
+                progressBar1.Value = i;
             }
         }
         //-------------------------------------------------------------------------------------------
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            
-            //axWindowsMediaPlayer1.URL = "Perfume_globalsite_sound.wav";
             clist.Clear();
                 set_Block("ツイート内容", Properties.Resources.図1, clist.Count);
                 tweetbox_View();
-                axWindowsMediaPlayer1.settings.autoStart = false;
                 sp = new System.Media.SoundPlayer(Properties.Resources.Perfume_globalsite_sound);
             
+                visualize();
+                string mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp4File.mp4");
+if (!File.Exists(mp4Path))
+{
+    //write it to disk
+    File.WriteAllBytes(mp4Path, Properties.Resources.perfume);
+}
+axWindowsMediaPlayer1.URL = "mp4File.mp4";
+        }
 
+        public void visualize()
+        {
+
+            String legend = "結果";
+            if (check == 0)
+            {
+                // グラフを追加
+                chart1.Series.Add(legend);
+                check++;
+            }
+            chart1.Series[legend].Points.Clear();
+            // グラフの種類を折れ線グラフで指定（棒グラフならColumn）
+            chart1.Series[legend].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            // 凡例を指定
+            chart1.Legends.Clear();
+            //chart1.Series[legend].LegendText = legend;
+            // 各ポイントに円を指定（指定しなければ線のみで表示）
+            chart1.Series[legend].MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
+            // xValuesとyValuesに、DB検索結果や計算結果等を、用途に応じて指定
+            String[] xValues = new String[48];
+            for(int i=0;i<48;i++)
+            {
+                string htime = (i / 2).ToString();
+                string mtime = (i % 2 * 30).ToString();
+                xValues[i] = htime + ":" + mtime;
+            }
+            int[] yValues = new int[48];
+            for (int i = 0; i < 48;i++ )
+            {
+                yValues[i] = i+5;
+            }
+                // 各ポイント毎のデータクラスを作成してグラフに反映
+                for (int i = 0; i < xValues.Length; i++)
+                {
+                    // DataPointクラスを作成
+                    System.Windows.Forms.DataVisualization.Charting.DataPoint dp = new System.Windows.Forms.DataVisualization.Charting.DataPoint();
+                    // XとYの値を指定
+                    dp.SetValueXY(xValues[i], yValues[i]);
+                    // グラフにポイントを追加
+                    chart1.Series[legend].Points.Add(dp);
+                }
+                label1.Text = "BOB";
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -168,7 +218,8 @@ namespace WaveApplication
             var h = a.Split(',');
             tweetname = h[0];
             tweetdate = int.Parse(h[1]);
-            tweettime = int.Parse(h[2]);
+            int time = int.Parse(h[2]);
+            tweettime = time / 100 + time % 100 / 30;
             artist = h[3];
             tweet = h[4];
 

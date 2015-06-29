@@ -86,6 +86,7 @@
     <None Include="Resources\再生ボタン.png" />
     <None Include="Resources\再生ボタン２.png" />
     <None Include="Resources\停止ボタン.png" />
+    <None Include="Resources\perfume.mp4" />
     <Content Include="Resources\図1.png" />
   </ItemGroup>
   <ItemGroup>
