@@ -19,16 +19,19 @@ namespace WaveApplication
     {
         const int classnum = 5;//登録人数
         const int datanum = 100 * classnum;//データ数
+        const int time = 48;//時間間隔を30分にした
+        public int date;
         public bool eventflag = true;
         public System.Media.SoundPlayer sp;
         public string[] artist;
         internal List<PictureBox> clist = new List<PictureBox>();  //textbox格納リスト
         public int check = 0;
+        Tweet[] tw;
 
         public BuStream()
         {
             InitializeComponent();
-            artist = new string[] { "BOB", "BOC", "BOD", "BOE", "BOF" };
+            artist = new string[] { "BumpOfBeef", "BOC", "BOD", "BOE", "BOF" };
         }
 
 
@@ -37,7 +40,6 @@ namespace WaveApplication
         {
             int top;
             int y = 10; //ブロック描画開始位置
-            int max_left = 0;
             int HeightSize = Properties.Resources.図1.Height / 5 * 3;
             int WidthSize = Properties.Resources.図1.Width / 5 * 3;
 
@@ -67,13 +69,13 @@ namespace WaveApplication
         private void set_Block(string tweet_content, Image img, int point) //point==clist.Count ⇒　末尾に追加
         {
             string filename;
-            Tweet[] tw = new Tweet[datanum];
+            tw = new Tweet[datanum];
 
             for (int i = 1; i <= datanum; i++)
             {
                 filename = "1";
                 tw[i-1] = new Tweet(filename);
-
+                if (tw[i-1].tweetdate != date) continue;
                 PictureBox pb = new PictureBox();
                 //画像の大きさをPictureBoxに合わせる
                 pb.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -104,7 +106,18 @@ namespace WaveApplication
                 set_Block("ツイート内容", Properties.Resources.図1, clist.Count);
                 tweetbox_View();
                 sp = new System.Media.SoundPlayer(Properties.Resources.Perfume_globalsite_sound);
-            
+            if(comboBox1.Text=="6月23日")
+            {
+                date = 623;
+            }
+            else if(comboBox1.Text =="7月24日")
+            {
+                date = 724;
+            }
+            else
+            {
+                date = 815;
+            }
                 visualize();
                 string mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp4File.mp4");
                 if (!File.Exists(mp4Path))
@@ -118,7 +131,7 @@ namespace WaveApplication
 
         public void visualize()
         {
-
+            int artistlabel=0,submax=0;
             String legend = "結果";
             if (check == 0)
             {
@@ -126,13 +139,22 @@ namespace WaveApplication
                 chart1.Series.Add(legend);
                 check++;
             }
-            chart1.Series[legend].Points.Clear();
-            // グラフの種類を折れ線グラフで指定（棒グラフならColumn）
+            int[][] sub = new int[classnum][];
+            for (int i = 0; i < classnum;i++ )
+            {
+                sub[i] = new int[47];
+            }
+                for (int i = 0; i < classnum; i++)
+                {
+
+                }
+            var min = int.MaxValue;
+            var max = int.MinValue;
+            
+                //グラフの処理
+                chart1.Series[legend].Points.Clear();
             chart1.Series[legend].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            // 凡例を指定
             chart1.Legends.Clear();
-            //chart1.Series[legend].LegendText = legend;
-            // 各ポイントに円を指定（指定しなければ線のみで表示）
             chart1.Series[legend].MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
             // xValuesとyValuesに、DB検索結果や計算結果等を、用途に応じて指定
             String[] xValues = new String[48];
@@ -142,22 +164,68 @@ namespace WaveApplication
                 string mtime = (i % 2 * 30).ToString();
                 xValues[i] = htime + ":" + mtime;
             }
-            int[] yValues = new int[48];
-            for (int i = 0; i < 48;i++ )
+            int[][] yValues = new int[classnum][];
+            for (int i = 0; i < classnum;i++ )
             {
-                yValues[i] = i+5;
+                yValues[i] = new int[48];
             }
-                // 各ポイント毎のデータクラスを作成してグラフに反映
-                for (int i = 0; i < xValues.Length; i++)
+                for (int i = 0; i < datanum; i++)
                 {
-                    // DataPointクラスを作成
-                    System.Windows.Forms.DataVisualization.Charting.DataPoint dp = new System.Windows.Forms.DataVisualization.Charting.DataPoint();
-                    // XとYの値を指定
-                    dp.SetValueXY(xValues[i], yValues[i]);
-                    // グラフにポイントを追加
-                    chart1.Series[legend].Points.Add(dp);
+                    for (int j = 0; j < classnum; j++)
+                    {
+                        if (tw[i].artist == artist[j])
+                        {
+                            for (int k = 0; k < 48; k++)
+                            {
+                                if (tw[i].tweettime == k)
+                                {
+                                    yValues[j][k]++;
+                                }
+                            }
+                        }
+                    }
                 }
-                label1.Text = "BOB";
+                for (int i = 0; i < classnum;i++ )
+                {
+                    for(int j=1;j<48;j++)
+                    {
+                        sub[i][j - 1] = yValues[i][j] - yValues[i][j - 1];
+                    }
+                }
+                for (int i = 0; i < classnum; i++)
+                {
+                    foreach (var n in sub[i])
+                    {
+                        if (min > n)
+                            min = n;
+                        if (max < n)
+                            max = n;
+                    }
+                    if (i == 0)
+                    {
+                        artistlabel = i;
+                        submax = max;
+                    }
+                    else
+                    {
+                        if(max>submax)
+                        {
+                            submax = max;
+                            artistlabel = i;
+                        }
+                    }
+                }
+                    // 各ポイント毎のデータクラスを作成してグラフに反映
+                    for (int i = 0; i < xValues.Length; i++)
+                    {
+                        // DataPointクラスを作成
+                        System.Windows.Forms.DataVisualization.Charting.DataPoint dp = new System.Windows.Forms.DataVisualization.Charting.DataPoint();
+                        // XとYの値を指定
+                        dp.SetValueXY(xValues[i], yValues[artistlabel][i]);
+                        // グラフにポイントを追加
+                        chart1.Series[legend].Points.Add(dp);
+                    }
+                label1.Text = "注目アーティストは"+artist[artistlabel];
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
