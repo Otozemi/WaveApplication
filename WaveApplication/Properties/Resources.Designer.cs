@@ -159,11 +159,1352 @@ namespace WaveApplication.Properties {
         }
         
         /// <summary>
-        ///   あんり,0623,1330,BumpOfBeef,今日はＢＯＢのライブ！ に類似しているローカライズされた文字列を検索します。
+        ///   あいり,0625,0600,,ねむい！！ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string tweet1 {
             get {
                 return ResourceManager.GetString("tweet1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0625,1240,,買ったばっかのイヤホンこわれた に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet10 {
+            get {
+                return ResourceManager.GetString("tweet10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0626,2355,,雨音うるさっ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet100 {
+            get {
+                return ResourceManager.GetString("tweet100", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0627,0812,,良いあさだ！！はれてよかった に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet101 {
+            get {
+                return ResourceManager.GetString("tweet101", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0627,0815,,昨日がんばったし二度寝しよう に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet102 {
+            get {
+                return ResourceManager.GetString("tweet102", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0627,0915,ミスチル,昨日のミスチルしばりカラオケ楽しかったな… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet103 {
+            get {
+                return ResourceManager.GetString("tweet103", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0627,0922,,今日暑いぞーーー に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet104 {
+            get {
+                return ResourceManager.GetString("tweet104", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0627,1055,,休みなのに電車くそ混み に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet105 {
+            get {
+                return ResourceManager.GetString("tweet105", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0627,1142,,お昼なにたべよっかな に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet106 {
+            get {
+                return ResourceManager.GetString("tweet106", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0627,1208,,焼きそばたべたい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet107 {
+            get {
+                return ResourceManager.GetString("tweet107", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0627,1212,KANA-BOON,KANA-BOONはじまる！！！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet108 {
+            get {
+                return ResourceManager.GetString("tweet108", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0627,1213,KANA-BOON,一曲目からKANA-BOONあついぞ！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet109 {
+            get {
+                return ResourceManager.GetString("tweet109", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0625,1310,,アイスおごってもらった！！ラッキー！！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet11 {
+            get {
+                return ResourceManager.GetString("tweet11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0627,1214,KANA-BOON,KANA-BOONはじめてみたけどいいな に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet110 {
+            get {
+                return ResourceManager.GetString("tweet110", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0627,1222,KANA-BOON,ないものねだりもシルエットもかっこよかった に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet111 {
+            get {
+                return ResourceManager.GetString("tweet111", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0627,1229,KANA-BOON,KANA-BOONのボーカル声グッド に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet112 {
+            get {
+                return ResourceManager.GetString("tweet112", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0627,1302,,たこやきうま に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet113 {
+            get {
+                return ResourceManager.GetString("tweet113", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0627,1342,,人めっちゃおおいなー に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet114 {
+            get {
+                return ResourceManager.GetString("tweet114", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0627,1421,,早くもタオルびしゃびしゃです に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet115 {
+            get {
+                return ResourceManager.GetString("tweet115", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0627,1442,,今日のフェスは出る人結構当たりです に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet116 {
+            get {
+                return ResourceManager.GetString("tweet116", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0627,1505,オカモトズ,オカモトズはやく始まらないかなー に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet117 {
+            get {
+                return ResourceManager.GetString("tweet117", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0627,1521,レキシ,レキシグッズかった に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet118 {
+            get {
+                return ResourceManager.GetString("tweet118", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0627,1532,,首いたい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet119 {
+            get {
+                return ResourceManager.GetString("tweet119", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0625,1316,,先生めっちゃ怒ってるじゃん に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet12 {
+            get {
+                return ResourceManager.GetString("tweet12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0627,1545,,今日フェスやってるらしい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet120 {
+            get {
+                return ResourceManager.GetString("tweet120", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0627,1559,ミスチル,わたしは家でミスチルのライブDVD鑑賞会ですっ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet121 {
+            get {
+                return ResourceManager.GetString("tweet121", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0627,1602,オカモトズ,オカモトズ人多いなー に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet122 {
+            get {
+                return ResourceManager.GetString("tweet122", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0627,1612,,始まってそうそうめちゃもりあがってる！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet123 {
+            get {
+                return ResourceManager.GetString("tweet123", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0627,1613,オカモトズ,オカモトズ始まりました！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet124 {
+            get {
+                return ResourceManager.GetString("tweet124", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0627,1619,,一曲目ダンスウィズミーかっこよ！！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet125 {
+            get {
+                return ResourceManager.GetString("tweet125", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0627,1621,オカモトズ,オカモトズ最高っ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet126 {
+            get {
+                return ResourceManager.GetString("tweet126", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0627,1624,,やっぱミスチルええな に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet127 {
+            get {
+                return ResourceManager.GetString("tweet127", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0627,1627,オカモトズ,オカモトズのベースぶいぶいいってるぅ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet128 {
+            get {
+                return ResourceManager.GetString("tweet128", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0627,1629,,最高だったな… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet129 {
+            get {
+                return ResourceManager.GetString("tweet129", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0625,1420,,明後日のフェス楽しみすぎる に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet13 {
+            get {
+                return ResourceManager.GetString("tweet13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0627,1702,,暑すぎて脱水症状なりそう…お茶買おう に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet130 {
+            get {
+                return ResourceManager.GetString("tweet130", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0627,1718,,盛り上がりすぎて身体いたい… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet131 {
+            get {
+                return ResourceManager.GetString("tweet131", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0627,1725,,明日絶対筋肉痛だ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet132 {
+            get {
+                return ResourceManager.GetString("tweet132", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0627,1753,,明日も休みだしこんな時間からビールいただきます！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet133 {
+            get {
+                return ResourceManager.GetString("tweet133", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0627,1804,,ビタミンとりたい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet134 {
+            get {
+                return ResourceManager.GetString("tweet134", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0627,1821,,ぼうしどっかいった！！！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet135 {
+            get {
+                return ResourceManager.GetString("tweet135", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0627,1829,,雨ぽつぽつきた気が… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet136 {
+            get {
+                return ResourceManager.GetString("tweet136", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0627,1831,,傘一応持ってくればよかったああああああ…!? に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet137 {
+            get {
+                return ResourceManager.GetString("tweet137", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0627,1832,,雨だけど今からレキシはじまる！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet138 {
+            get {
+                return ResourceManager.GetString("tweet138", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0627,1835,レキシ,レキシ一曲目狩りから稲作へ最高 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet139 {
+            get {
+                return ResourceManager.GetString("tweet139", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0625,1430,,新潟で美味しいものおすすめありませんか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet14 {
+            get {
+                return ResourceManager.GetString("tweet14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0627,1838,,雨降ってるのにレキシめっちゃ盛り上がってるよ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet140 {
+            get {
+                return ResourceManager.GetString("tweet140", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0627,1842,レキシ,レキシ初めてきいたけどいい…CD借りて帰ろ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet141 {
+            get {
+                return ResourceManager.GetString("tweet141", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0627,1845,レキシ,レキシと上原ひろみのライブ見に行けばよかった に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet142 {
+            get {
+                return ResourceManager.GetString("tweet142", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0627,2102,,フェス楽しかったけどつかれたーーー に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet143 {
+            get {
+                return ResourceManager.GetString("tweet143", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0627,2105,ミスチル,パックしてスムージーのんで今日は早めに寝よ。ミスチル聴きながら に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet144 {
+            get {
+                return ResourceManager.GetString("tweet144", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0627,2108,,雨やんでよかったー早くかえろ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet145 {
+            get {
+                return ResourceManager.GetString("tweet145", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0627,2135,KANA-BOON,今日はKANA-BOONが一番よかったかも に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet146 {
+            get {
+                return ResourceManager.GetString("tweet146", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0627,2202,レキシ,レキシ髪型暑くないのかな に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet147 {
+            get {
+                return ResourceManager.GetString("tweet147", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0627,2248,,扇風機つけてねよ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet148 {
+            get {
+                return ResourceManager.GetString("tweet148", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0627,2331,,明日学校とか…信じたくない に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet149 {
+            get {
+                return ResourceManager.GetString("tweet149", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0625,1435,,文化祭の資料提出しなきゃ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet15 {
+            get {
+                return ResourceManager.GetString("tweet15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0627,2348,,眠いけど録画してたドラマみよかな に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet150 {
+            get {
+                return ResourceManager.GetString("tweet150", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0625,1520,,ケツのきわにお米。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet16 {
+            get {
+                return ResourceManager.GetString("tweet16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0625,1540,,銭湯キメて最高に気持ちいぞ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet17 {
+            get {
+                return ResourceManager.GetString("tweet17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0625,1542,,今日は渋谷で5時～ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet18 {
+            get {
+                return ResourceManager.GetString("tweet18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0625,1625,,バイト終わったので誰か飲みませんか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet19 {
+            get {
+                return ResourceManager.GetString("tweet19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0625,0800,,2限にはまにあいそうだ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet2 {
+            get {
+                return ResourceManager.GetString("tweet2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0625,1658,,ニコルンビーーーム に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet20 {
+            get {
+                return ResourceManager.GetString("tweet20", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0625,1702,,JamesBrownの映画みてきます に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet21 {
+            get {
+                return ResourceManager.GetString("tweet21", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0625,1704,,逆さになったボールペンノックして指破裂した に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet22 {
+            get {
+                return ResourceManager.GetString("tweet22", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0625,1706,,早く夏休みにならないかなぁ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet23 {
+            get {
+                return ResourceManager.GetString("tweet23", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0625,1712,,海いって肉焼いてきゃいきゃい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet24 {
+            get {
+                return ResourceManager.GetString("tweet24", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0625,1734,,指と蝶番と私。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet25 {
+            get {
+                return ResourceManager.GetString("tweet25", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0625,1738,,時間もあるし本をたくさん読もう に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet26 {
+            get {
+                return ResourceManager.GetString("tweet26", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0625,1751,,明日があるーさ明日があるぅ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet27 {
+            get {
+                return ResourceManager.GetString("tweet27", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0625,1812,,さすがに髪傷みすぎてもう に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet28 {
+            get {
+                return ResourceManager.GetString("tweet28", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0625,1845,ミスチル,もうすぐミスチル新曲聴ける に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet29 {
+            get {
+                return ResourceManager.GetString("tweet29", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0625,0805,,電車遅れてる… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet3 {
+            get {
+                return ResourceManager.GetString("tweet3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0625,1846,,ハンバーーグ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet30 {
+            get {
+                return ResourceManager.GetString("tweet30", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0625,1849,,今日は課題終わらせるまで寝られない に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet31 {
+            get {
+                return ResourceManager.GetString("tweet31", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0625,1902,,新宿で飲んでます に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet32 {
+            get {
+                return ResourceManager.GetString("tweet32", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0625,1912,ミスチル,ミスチルきた！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet33 {
+            get {
+                return ResourceManager.GetString("tweet33", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0625,1923,,就活もバイトもしたくない に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet34 {
+            get {
+                return ResourceManager.GetString("tweet34", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0625,1958,,必殺フォワードアルゴリズムゥ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet35 {
+            get {
+                return ResourceManager.GetString("tweet35", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0625,2021,,黒板けっすぃーけっすぃーぶっすぃー に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet36 {
+            get {
+                return ResourceManager.GetString("tweet36", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0625,2024,,梅雨はよあけろ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet37 {
+            get {
+                return ResourceManager.GetString("tweet37", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0625,2043,,こんな夜にお前に乗れないなんてぇ～ジャッジャッ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet38 {
+            get {
+                return ResourceManager.GetString("tweet38", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0625,2055,,キーボーディストは肩がこる に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet39 {
+            get {
+                return ResourceManager.GetString("tweet39", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0625,0915,ミスチル,夜ミスチルでるらしい、録画しなきゃ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet4 {
+            get {
+                return ResourceManager.GetString("tweet4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0625,2109,,もう百億回アイフォン落としてる に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet40 {
+            get {
+                return ResourceManager.GetString("tweet40", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0625,2116,,ビアガーデンはよ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet41 {
+            get {
+                return ResourceManager.GetString("tweet41", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0625,2207,,夜中の散歩も悪くない に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet42 {
+            get {
+                return ResourceManager.GetString("tweet42", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0625,2302,ゲス,ゲスの極み乙女テレビでてる！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet43 {
+            get {
+                return ResourceManager.GetString("tweet43", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0625,2303,,パソコンの調子が悪くて課題できない終わった に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet44 {
+            get {
+                return ResourceManager.GetString("tweet44", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0625,2304,ゲス,ゲス新曲ハマりそうだ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet45 {
+            get {
+                return ResourceManager.GetString("tweet45", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0625,2306,ゲス,映画の主題歌ゲスなのか、新しい曲かっこいい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet46 {
+            get {
+                return ResourceManager.GetString("tweet46", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0625,2315,ゲス,ゲスのベースの人かっこよかったな に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet47 {
+            get {
+                return ResourceManager.GetString("tweet47", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0625,2318,,久々に同級生と飲んだ、からあげ美味かったあ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet48 {
+            get {
+                return ResourceManager.GetString("tweet48", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0625,2332,,お腹すいたしラーメンでも食べるぞ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet49 {
+            get {
+                return ResourceManager.GetString("tweet49", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0625,1012,,新しいスニーカー買った に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet5 {
+            get {
+                return ResourceManager.GetString("tweet5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0625,2349,ミスチル,明日はカラオケでミスチル歌いまくろ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet50 {
+            get {
+                return ResourceManager.GetString("tweet50", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0626,0712,,からあげおいしい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet51 {
+            get {
+                return ResourceManager.GetString("tweet51", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0626,0722,,カレーおいしい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet52 {
+            get {
+                return ResourceManager.GetString("tweet52", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0626,0805,,なにしよっかな… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet53 {
+            get {
+                return ResourceManager.GetString("tweet53", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0626,0922,,今日の授業は内容が濃かった に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet54 {
+            get {
+                return ResourceManager.GetString("tweet54", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0626,1055,,小指怪我した… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet55 {
+            get {
+                return ResourceManager.GetString("tweet55", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0626,1142,ミスチル,ミスチルの新曲いいなー に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet56 {
+            get {
+                return ResourceManager.GetString("tweet56", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0626,1156,,毛虫踏むところだった… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet57 {
+            get {
+                return ResourceManager.GetString("tweet57", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0626,1218,,久しぶりに暑さで起きた に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet58 {
+            get {
+                return ResourceManager.GetString("tweet58", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0626,1221,,今日はさすがに寝坊 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet59 {
+            get {
+                return ResourceManager.GetString("tweet59", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0625,1130,,お昼ご飯はラーメンだな に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet6 {
+            get {
+                return ResourceManager.GetString("tweet6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0626,1250,,はああああああどっこい！！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet60 {
+            get {
+                return ResourceManager.GetString("tweet60", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0626,1310,,ノートどこにいったの！？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet61 {
+            get {
+                return ResourceManager.GetString("tweet61", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0626,1350,,体操服忘れた に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet62 {
+            get {
+                return ResourceManager.GetString("tweet62", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0626,1438,,音楽のゲシュタルト崩壊 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet63 {
+            get {
+                return ResourceManager.GetString("tweet63", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0626,1442,,まさとさんすげえな… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet64 {
+            get {
+                return ResourceManager.GetString("tweet64", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0626,1453,,役割論理は最強の戦術ですぞ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet65 {
+            get {
+                return ResourceManager.GetString("tweet65", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0626,1530,,一緒にやけ酒しようぜ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet66 {
+            get {
+                return ResourceManager.GetString("tweet66", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0626,1549,,ダーツバーとか行きたい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet67 {
+            get {
+                return ResourceManager.GetString("tweet67", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0626,1621,ミスチル,カラオケでミスチルしばり に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet68 {
+            get {
+                return ResourceManager.GetString("tweet68", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0626,1645,,極限の努力 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet69 {
+            get {
+                return ResourceManager.GetString("tweet69", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0625,1145,,課題の提出今日中だと！！！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet7 {
+            get {
+                return ResourceManager.GetString("tweet7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0626,1728,,やったぜ！！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet70 {
+            get {
+                return ResourceManager.GetString("tweet70", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0626,1731,,雨だ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet71 {
+            get {
+                return ResourceManager.GetString("tweet71", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0626,1742,,傘忘れた… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet72 {
+            get {
+                return ResourceManager.GetString("tweet72", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0626,1755,,ティッシュ切れた に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet73 {
+            get {
+                return ResourceManager.GetString("tweet73", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0626,1821,,レインコートと長靴買ったので勝ち に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet74 {
+            get {
+                return ResourceManager.GetString("tweet74", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0626,1834,,タッチパネルに反応されない人生 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet75 {
+            get {
+                return ResourceManager.GetString("tweet75", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0626,1842,,動物園か水族館いきたいな に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet76 {
+            get {
+                return ResourceManager.GetString("tweet76", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0626,1844,,乗り込んだ電車がどちゃくそ臭かった に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet77 {
+            get {
+                return ResourceManager.GetString("tweet77", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0626,1856,,Macとスタバと私 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet78 {
+            get {
+                return ResourceManager.GetString("tweet78", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0626,1902,,あくびが止まらないマン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet79 {
+            get {
+                return ResourceManager.GetString("tweet79", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0625,1210,,今日暑すぎ… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet8 {
+            get {
+                return ResourceManager.GetString("tweet8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0626,1904,,明日は雨やむといいんだけど に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet80 {
+            get {
+                return ResourceManager.GetString("tweet80", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0626,1905,,お給料日はやくきてくれぇ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet81 {
+            get {
+                return ResourceManager.GetString("tweet81", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0626,1912,,ヘッドホン音いい感じだけどむれる に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet82 {
+            get {
+                return ResourceManager.GetString("tweet82", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0626,1922,,この雨でリュックびっちゃびちゃ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet83 {
+            get {
+                return ResourceManager.GetString("tweet83", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0626,1945,,うどんひさびさに食べたけどおいしかった に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet84 {
+            get {
+                return ResourceManager.GetString("tweet84", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0626,1958,,夏感じてる… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet85 {
+            get {
+                return ResourceManager.GetString("tweet85", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0626,2021,,帰り道虫うるさすぎ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet86 {
+            get {
+                return ResourceManager.GetString("tweet86", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0626,2023,,のどからっから に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet87 {
+            get {
+                return ResourceManager.GetString("tweet87", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0626,2055,,サンダルほしい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet88 {
+            get {
+                return ResourceManager.GetString("tweet88", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0626,2059,,靴擦れいたい… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet89 {
+            get {
+                return ResourceManager.GetString("tweet89", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0625,1211,,と思ったら電車の冷房ききすぎ… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet9 {
+            get {
+                return ResourceManager.GetString("tweet9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0626,2148,,今日のドラマ面白かった に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet90 {
+            get {
+                return ResourceManager.GetString("tweet90", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0626,2152,,プーさんかわいい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet91 {
+            get {
+                return ResourceManager.GetString("tweet91", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0626,2155,,そろそろ自転車に乗れるようになりたい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet92 {
+            get {
+                return ResourceManager.GetString("tweet92", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0626,2200,,寝たい に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet93 {
+            get {
+                return ResourceManager.GetString("tweet93", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0626,2245,,寝るかね に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet94 {
+            get {
+                return ResourceManager.GetString("tweet94", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   えりこ,0626,2252,,ラーメンおいしかったなあ！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet95 {
+            get {
+                return ResourceManager.GetString("tweet95", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あいり,0626,2316,,試験勉強全くしてない… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet96 {
+            get {
+                return ResourceManager.GetString("tweet96", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   おさむ,0626,2322,,部屋を片付けなければ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet97 {
+            get {
+                return ResourceManager.GetString("tweet97", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   いくこ,0626,2345,,明日のフェスが楽しみで眠れない に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet98 {
+            get {
+                return ResourceManager.GetString("tweet98", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うみ,0626,2347,,うそ、眠い に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string tweet99 {
+            get {
+                return ResourceManager.GetString("tweet99", resourceCulture);
             }
         }
         

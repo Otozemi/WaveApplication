@@ -157,6 +157,453 @@
   <data name="The_dark_forest_at_night_muxed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\The-dark-forest-at-night_muxed.mp4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="tweet10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet10.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet100.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet101.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet102.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet103.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet104" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet104.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet105.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet106.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet107.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet108.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet109" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet109.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet11.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet110.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet111.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet112.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet113.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet114" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet114.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet115.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet116.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet117.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet118.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet119" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet119.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet12.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet120.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet121.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet122.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet123.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet124" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet124.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet125.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet126" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet126.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet127" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet127.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet128.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet129.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet13.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet130.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet131.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet132.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet133.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet134" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet134.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet135.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet136.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet137.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet138.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet139.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet14.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet140.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet141.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet142.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet143.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet144.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet145" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet145.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet146.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet147.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet148" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet148.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet149" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet149.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet15.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet150.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet16.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet17.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet18.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet19.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet20.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet21.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet22.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet23.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet24.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet25.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet26.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet27.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet28.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet29.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet30.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet31.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet32.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet33.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet34.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet35.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet36.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet37.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet38.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet39.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet40.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet41.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet42.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet43.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet44.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet45.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet46.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet47.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet48.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet49.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet50.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet51.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet52.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet53.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet54.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet55.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet56.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet57.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet58.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet59.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet60.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet61.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet62.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet63.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet64.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet65.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet66.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet67.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet68.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet69.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet7.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet70.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet71.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet72.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet73.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet74.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet75.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet76.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet77" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet77.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet78" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet78.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet79.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet8.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet80.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet81.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet82.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet83.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet84.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet85.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet86.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet87.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet88.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet89" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet89.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet9.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet90.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet91.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet92.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet93.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet94" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet94.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet95.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet96.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet97.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet98.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
+  <data name="tweet99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tweet99.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
+  </data>
   <data name="umi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\umi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

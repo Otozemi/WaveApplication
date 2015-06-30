@@ -103,9 +103,9 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "6月23日",
-            "7月24日",
-            "8月15日"});
+            "6月25日",
+            "6月26日",
+            "6月27日"});
             this.comboBox1.Location = new System.Drawing.Point(93, 458);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 20);
@@ -199,7 +199,7 @@
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(220, 456);
-            this.progressBar1.Maximum = 500;
+            this.progressBar1.Maximum = 150;
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(92, 23);
             this.progressBar1.TabIndex = 8;

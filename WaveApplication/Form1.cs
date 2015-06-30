@@ -18,7 +18,7 @@ namespace WaveApplication
     public partial class BuStream : Form
     {
         const int classnum = 5;//登録人数
-        const int datanum = 100 * classnum;//データ数
+        const int datanum = 150;//データ数
         const int time = 48;//時間間隔を30分にした
         public int date;
         public bool eventflag = true;
@@ -32,7 +32,7 @@ namespace WaveApplication
         public BuStream()
         {
             InitializeComponent();
-            artist = new string[] { "BumpOfBeef", "BOC", "BOD", "BOE", "BOF" };
+            artist = new string[] { "ミスチル", "KANA-BOON", "オカモトズ", "レキシ", "ゲス" };
         }
 
 
@@ -74,30 +74,30 @@ namespace WaveApplication
             for (int i = 1; i <= datanum; i++)
             {
 
-                //filename = i.ToString();
+                filename = i.ToString();
 
-                filename = "1";
+                //filename = "1";
                 progressBar1.Value = i;
                 tw[i-1] = new Tweet(filename);
                 if (tw[i-1].tweetdate != date) continue;
                 Image img = Properties.Resources.eriko; ;
-                if(tw[i-1].tweetname == "eriko")
+                if(tw[i-1].tweetname == "えりこ")
                 {
                     img = Properties.Resources.eriko;
                 }
-                else if (tw[i-1].tweetname == "あんり")
+                else if (tw[i-1].tweetname == "あいり")
                 {
                     img = Properties.Resources.airi;
                 }
-                else if(tw[i-1].tweetname == "ikuko")
+                else if(tw[i-1].tweetname == "いくこ")
                 {
                     img = Properties.Resources.ikuko;
                 }
-                else if(tw[i-1].tweetname == "osamu")
+                else if(tw[i-1].tweetname == "おさむ")
                 {
                     img = Properties.Resources.osamu;
                 }
-                else if(tw[i-1].tweetname == "umi")
+                else if(tw[i-1].tweetname == "うみ")
                 {
                     img = Properties.Resources.umi;
                 }
@@ -128,16 +128,16 @@ namespace WaveApplication
         {
             clist.Clear();
             string mp4Path;
-            if (comboBox1.Text == "6月23日" && date!=623)
+            if (comboBox1.Text == "6月25日" && date!=625)
             {
-                date = 623;
+                date = 625;
                 sp = new System.Media.SoundPlayer(Properties.Resources.Perfume_globalsite_sound);
                 mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp4File.mp4");
                     File.WriteAllBytes(mp4Path, Properties.Resources.perfume);
             }
-            else if (comboBox1.Text == "7月24日" && date != 724)
+            else if (comboBox1.Text == "6月26日" && date != 626)
             {
-                date = 724;
+                date = 626;
                 sp = new System.Media.SoundPlayer(Properties.Resources._21);
                 mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp3File.mp4");
                     File.WriteAllBytes(mp4Path, Properties.Resources.The_dark_forest_at_night_muxed);
@@ -145,7 +145,7 @@ namespace WaveApplication
             }
             else
             {
-                date = 815;
+                date = 627;
             }
                 set_Block(clist.Count);
                 tweetbox_View();
