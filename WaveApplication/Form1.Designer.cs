@@ -74,7 +74,7 @@
             this.panel1.Font = new System.Drawing.Font("Buxton Sketch", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(12, 104);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(296, 346);
+            this.panel1.Size = new System.Drawing.Size(336, 346);
             this.panel1.TabIndex = 4;
             // 
             // chart1
@@ -83,10 +83,10 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(323, 24);
+            this.chart1.Location = new System.Drawing.Point(354, 24);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
-            this.chart1.Size = new System.Drawing.Size(401, 200);
+            this.chart1.Size = new System.Drawing.Size(370, 200);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
@@ -118,7 +118,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(393, 206);
+            this.tabPage2.Size = new System.Drawing.Size(362, 206);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "注目映像！";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -129,7 +129,7 @@
             this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(0, 0);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(397, 206);
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(360, 206);
             this.axWindowsMediaPlayer1.TabIndex = 9;
             // 
             // tabPage1
@@ -141,7 +141,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(393, 206);
+            this.tabPage1.Size = new System.Drawing.Size(362, 206);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "注目楽曲！";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -149,7 +149,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(29, 110);
+            this.linkLabel1.Location = new System.Drawing.Point(31, 121);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(69, 12);
             this.linkLabel1.TabIndex = 8;
@@ -160,7 +160,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::WaveApplication.Properties.Resources.再生ボタン;
-            this.pictureBox2.Location = new System.Drawing.Point(345, 159);
+            this.pictureBox2.Location = new System.Drawing.Point(314, 159);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(42, 39);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -172,7 +172,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(15, 17);
+            this.pictureBox1.Location = new System.Drawing.Point(19, 17);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(98, 90);
             this.pictureBox1.TabIndex = 8;
@@ -190,10 +190,10 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(323, 230);
+            this.tabControl1.Location = new System.Drawing.Point(354, 230);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(401, 232);
+            this.tabControl1.Size = new System.Drawing.Size(370, 232);
             this.tabControl1.TabIndex = 5;
             // 
             // progressBar1

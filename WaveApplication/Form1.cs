@@ -40,9 +40,9 @@ namespace WaveApplication
         internal void tweetbox_View()
         {
             int top;
-            int y = 10; //ブロック描画開始位置
-            int HeightSize = Properties.Resources.図1.Height / 5 * 3;
-            int WidthSize = Properties.Resources.図1.Width / 5 * 3;
+            int y = 0; //ブロック描画開始位置
+            int HeightSize = Properties.Resources.図1.Height/5;
+            int WidthSize = Properties.Resources.図1.Width/5*3;
 
             panel1.AutoScrollPosition = new Point(0, 0);               //スクロールの位置を（0,0）にしてから描画
             panel1.Controls.Clear();
@@ -67,7 +67,7 @@ namespace WaveApplication
         }
         //-------------------------------------------------------------------------------------------
         //ブロックの設定とリストへの登録
-        private void set_Block(Image img, int point) //point==clist.Count ⇒　末尾に追加
+        private void set_Block(int point) //point==clist.Count ⇒　末尾に追加
         {
             string filename;
             tw = new Tweet[datanum];
@@ -80,10 +80,31 @@ namespace WaveApplication
                 progressBar1.Value = i;
                 tw[i-1] = new Tweet(filename);
                 if (tw[i-1].tweetdate != date) continue;
+                Image img = Properties.Resources.eriko; ;
+                if(tw[i-1].tweetname == "eriko")
+                {
+                    img = Properties.Resources.eriko;
+                }
+                else if (tw[i-1].tweetname == "あんり")
+                {
+                    img = Properties.Resources.airi;
+                }
+                else if(tw[i-1].tweetname == "ikuko")
+                {
+                    img = Properties.Resources.ikuko;
+                }
+                else if(tw[i-1].tweetname == "osamu")
+                {
+                    img = Properties.Resources.osamu;
+                }
+                else if(tw[i-1].tweetname == "umi")
+                {
+                    img = Properties.Resources.umi;
+                }
                 PictureBox pb = new PictureBox();
                 //画像の大きさをPictureBoxに合わせる
                 pb.SizeMode = PictureBoxSizeMode.StretchImage;
-                pb.Left = 10;
+                pb.Left = 0;
                 //pb.Name = prop_name;
                 pb.AllowDrop = true;
 
@@ -91,9 +112,9 @@ namespace WaveApplication
                 Graphics g = Graphics.FromImage(img);
 
                 //Graphicsオブジェクトに文字列を描画する
-                //this.Font = new Font("Arial", 8);
+                pb.Font = new Font("Arial", 12);
 
-                g.DrawString(tw[i-1].tweet, this.Font, Brushes.Black, 50, 50);
+                g.DrawString(tw[i-1].tweet, pb.Font, Brushes.White, 100, 100);
                 g.Dispose();
 
                 //PictureBoxのImageプロパティに設定する 
@@ -126,7 +147,7 @@ namespace WaveApplication
             {
                 date = 815;
             }
-                set_Block(Properties.Resources.図1, clist.Count);
+                set_Block(clist.Count);
                 tweetbox_View();
                 
             

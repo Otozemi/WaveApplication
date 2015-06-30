@@ -92,6 +92,11 @@
     <None Include="Resources\The-dark-forest-at-night_muxed_audio.mp3" />
     <None Include="Resources\2.mp3" />
     <None Include="Resources\2.wav" />
+    <None Include="Resources\airi.png" />
+    <None Include="Resources\eriko.png" />
+    <None Include="Resources\ikuko.png" />
+    <None Include="Resources\osamu.png" />
+    <None Include="Resources\umi.png" />
     <Content Include="Resources\図1.png" />
   </ItemGroup>
   <ItemGroup>
