@@ -87,6 +87,11 @@
     <None Include="Resources\再生ボタン２.png" />
     <None Include="Resources\停止ボタン.png" />
     <None Include="Resources\perfume.mp4" />
+    <None Include="Resources\bs.png" />
+    <None Include="Resources\The-dark-forest-at-night_muxed.mp4" />
+    <None Include="Resources\The-dark-forest-at-night_muxed_audio.mp3" />
+    <None Include="Resources\2.mp3" />
+    <None Include="Resources\2.wav" />
     <Content Include="Resources\図1.png" />
   </ItemGroup>
   <ItemGroup>

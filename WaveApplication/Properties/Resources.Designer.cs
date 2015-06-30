@@ -63,6 +63,35 @@ namespace WaveApplication.Properties {
         /// <summary>
         ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
+        internal static byte[] _2 {
+            get {
+                object obj = ResourceManager.GetObject("_2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _21 {
+            get {
+                return ResourceManager.GetStream("_21", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap bs {
+            get {
+                object obj = ResourceManager.GetObject("bs", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
+        /// </summary>
         internal static byte[] perfume {
             get {
                 object obj = ResourceManager.GetObject("perfume", resourceCulture);
@@ -76,6 +105,16 @@ namespace WaveApplication.Properties {
         internal static System.IO.UnmanagedMemoryStream Perfume_globalsite_sound {
             get {
                 return ResourceManager.GetStream("Perfume_globalsite_sound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static byte[] The_dark_forest_at_night_muxed {
+            get {
+                object obj = ResourceManager.GetObject("The_dark_forest_at_night_muxed", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         

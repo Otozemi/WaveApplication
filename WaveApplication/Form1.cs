@@ -24,6 +24,7 @@ namespace WaveApplication
         public bool eventflag = true;
         public System.Media.SoundPlayer sp;
         public string[] artist;
+        public int artistlabel = 0;
         internal List<PictureBox> clist = new List<PictureBox>();  //textbox格納リスト
         public int check = 0;
         Tweet[] tw;
@@ -70,10 +71,13 @@ namespace WaveApplication
         {
             string filename;
             tw = new Tweet[datanum];
-
             for (int i = 1; i <= datanum; i++)
             {
+
+                //filename = i.ToString();
+
                 filename = "1";
+                progressBar1.Value = i;
                 tw[i-1] = new Tweet(filename);
                 if (tw[i-1].tweetdate != date) continue;
                 PictureBox pb = new PictureBox();
@@ -96,42 +100,46 @@ namespace WaveApplication
                 pb.Image = img;
 
                 clist.Insert(point, pb);
-                progressBar1.Value = i;
             }
         }
         //-------------------------------------------------------------------------------------------
         private void button1_Click(object sender, EventArgs e)
         {
             clist.Clear();
-                set_Block("ツイート内容", Properties.Resources.図1, clist.Count);
-                tweetbox_View();
-                sp = new System.Media.SoundPlayer(Properties.Resources.Perfume_globalsite_sound);
-            if(comboBox1.Text=="6月23日")
+            string mp4Path;
+            if (comboBox1.Text == "6月23日")
             {
                 date = 623;
+                sp = new System.Media.SoundPlayer(Properties.Resources.Perfume_globalsite_sound);
+                mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp4File.mp4");
+                    File.WriteAllBytes(mp4Path, Properties.Resources.perfume);
             }
-            else if(comboBox1.Text =="7月24日")
+            else if (comboBox1.Text == "7月24日")
             {
                 date = 724;
+                sp = new System.Media.SoundPlayer(Properties.Resources._21);
+                mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp4File.mp4");
+                    File.WriteAllBytes(mp4Path, Properties.Resources.The_dark_forest_at_night_muxed);
+                
             }
             else
             {
                 date = 815;
             }
+                set_Block("ツイート内容", Properties.Resources.図1, clist.Count);
+                tweetbox_View();
+                
+            
                 visualize();
-                string mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp4File.mp4");
-                if (!File.Exists(mp4Path))
-                {
-                    //write it to disk
-                    File.WriteAllBytes(mp4Path, Properties.Resources.perfume);
-                }
+                
                 axWindowsMediaPlayer1.settings.autoStart = false;
                 axWindowsMediaPlayer1.URL = "mp4File.mp4";
         }
 
         public void visualize()
         {
-            int artistlabel=0,submax=0;
+            artistlabel = 0;
+            int submax = 0;
             String legend = "結果";
             if (check == 0)
             {
@@ -177,7 +185,7 @@ namespace WaveApplication
                         {
                             for (int k = 0; k < 48; k++)
                             {
-                                if (tw[i].tweettime == k)
+                                if (tw[i].tweettime == k && tw[i].tweetdate == date)
                                 {
                                     yValues[j][k]++;
                                 }
