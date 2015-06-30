@@ -135,6 +135,9 @@ namespace WaveApplication
                 mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp4File.mp4");
                     File.WriteAllBytes(mp4Path, Properties.Resources.perfume);
                     pictureBox1.Image = Properties.Resources.artist1;
+                    label4.Text = "・ベースが上手い";
+                    label5.Text = "・ドラムが女性で可愛い";
+                    label6.Text = "・高い声がきれい！";
             }
             else if (comboBox1.Text == "6月26日" && date != 626)
             {
@@ -143,12 +146,17 @@ namespace WaveApplication
                 mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp3File.mp4");
                     File.WriteAllBytes(mp4Path, Properties.Resources.The_dark_forest_at_night_muxed);
                     pictureBox1.Image = Properties.Resources.artist2;
-                
+                    label4.Text = "・声が良い";
+                    label5.Text = "・歌詞が感動する";
+                    label6.Text = "・青春を思い出す";
             }
             else
             {
                 date = 627;
                 pictureBox1.Image = Properties.Resources.artist3;
+                label4.Text = "・ないものねだりは名曲";
+                label5.Text = "・声が中性的";
+                label6.Text = "・顔が良い";
             }
                 set_Block(clist.Count);
                 tweetbox_View();
@@ -265,7 +273,8 @@ namespace WaveApplication
                         // グラフにポイントを追加
                         chart1.Series[legend].Points.Add(dp);
                     }
-                label1.Text = "注目アーティストは"+artist[artistlabel];
+                label1.Text = "注目アーティスト："+artist[artistlabel]+"のツイート推移";
+                linkLabel1.Text = artist[artistlabel];
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
