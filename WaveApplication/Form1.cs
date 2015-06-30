@@ -67,7 +67,7 @@ namespace WaveApplication
         }
         //-------------------------------------------------------------------------------------------
         //ブロックの設定とリストへの登録
-        private void set_Block(string tweet_content, Image img, int point) //point==clist.Count ⇒　末尾に追加
+        private void set_Block(Image img, int point) //point==clist.Count ⇒　末尾に追加
         {
             string filename;
             tw = new Tweet[datanum];
@@ -107,18 +107,18 @@ namespace WaveApplication
         {
             clist.Clear();
             string mp4Path;
-            if (comboBox1.Text == "6月23日")
+            if (comboBox1.Text == "6月23日" && date!=623)
             {
                 date = 623;
                 sp = new System.Media.SoundPlayer(Properties.Resources.Perfume_globalsite_sound);
                 mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp4File.mp4");
                     File.WriteAllBytes(mp4Path, Properties.Resources.perfume);
             }
-            else if (comboBox1.Text == "7月24日")
+            else if (comboBox1.Text == "7月24日" && date != 724)
             {
                 date = 724;
                 sp = new System.Media.SoundPlayer(Properties.Resources._21);
-                mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp4File.mp4");
+                mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp3File.mp4");
                     File.WriteAllBytes(mp4Path, Properties.Resources.The_dark_forest_at_night_muxed);
                 
             }
@@ -126,14 +126,22 @@ namespace WaveApplication
             {
                 date = 815;
             }
-                set_Block("ツイート内容", Properties.Resources.図1, clist.Count);
+                set_Block(Properties.Resources.図1, clist.Count);
                 tweetbox_View();
                 
             
                 visualize();
                 
                 axWindowsMediaPlayer1.settings.autoStart = false;
+            if(comboBox1.Text=="6月23日")
+            {
                 axWindowsMediaPlayer1.URL = "mp4File.mp4";
+            }
+            else
+            {
+                axWindowsMediaPlayer1.URL = "mp3File.mp4";
+            }
+
         }
 
         public void visualize()
