@@ -134,6 +134,7 @@ namespace WaveApplication
                 sp = new System.Media.SoundPlayer(Properties.Resources.Perfume_globalsite_sound);
                 mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp4File.mp4");
                     File.WriteAllBytes(mp4Path, Properties.Resources.perfume);
+                    pictureBox1.Image = Properties.Resources.artist1;
             }
             else if (comboBox1.Text == "6月26日" && date != 626)
             {
@@ -141,11 +142,13 @@ namespace WaveApplication
                 sp = new System.Media.SoundPlayer(Properties.Resources._21);
                 mp4Path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "mp3File.mp4");
                     File.WriteAllBytes(mp4Path, Properties.Resources.The_dark_forest_at_night_muxed);
+                    pictureBox1.Image = Properties.Resources.artist2;
                 
             }
             else
             {
                 date = 627;
+                pictureBox1.Image = Properties.Resources.artist3;
             }
                 set_Block(clist.Count);
                 tweetbox_View();
@@ -154,7 +157,7 @@ namespace WaveApplication
                 visualize();
                 
                 axWindowsMediaPlayer1.settings.autoStart = false;
-            if(comboBox1.Text=="6月23日")
+            if(comboBox1.Text=="6月25日")
             {
                 axWindowsMediaPlayer1.URL = "mp4File.mp4";
             }
@@ -325,7 +328,7 @@ namespace WaveApplication
             tweetname = h[0];
             tweetdate = int.Parse(h[1]);
             int time = int.Parse(h[2]);
-            tweettime = time / 100 + time % 100 / 30;
+            tweettime = time / 100 * 2 + time % 100 / 30;
             artist = h[3];
             tweet = h[4];
 

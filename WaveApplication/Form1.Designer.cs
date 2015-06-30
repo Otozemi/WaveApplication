@@ -110,7 +110,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 20);
             this.comboBox1.TabIndex = 7;
-            this.comboBox1.Text = "6月23日";
+            this.comboBox1.Text = "6月25日";
             // 
             // tabPage2
             // 
@@ -175,6 +175,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(19, 17);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(98, 90);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 

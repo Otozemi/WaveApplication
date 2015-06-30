@@ -246,6 +246,9 @@
     <None Include="Resources\tweet148.txt" />
     <None Include="Resources\tweet149.txt" />
     <None Include="Resources\tweet150.txt" />
+    <None Include="Resources\artist1.png" />
+    <None Include="Resources\artist2.png" />
+    <None Include="Resources\artist3.png" />
     <Content Include="Resources\図1.png" />
   </ItemGroup>
   <ItemGroup>
