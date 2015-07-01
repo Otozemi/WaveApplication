@@ -24,6 +24,7 @@ namespace WaveApplication
         public bool eventflag = true;
         public System.Media.SoundPlayer sp;
         public string[] artist;
+        public string[] imitationartist;
         public int artistlabel = 0;
         internal List<PictureBox> clist = new List<PictureBox>();  //textbox格納リスト
         public int check = 0;
@@ -33,6 +34,7 @@ namespace WaveApplication
         {
             InitializeComponent();
             artist = new string[] { "ミスチル", "KANA-BOON", "オカモトズ", "レキシ", "ゲス" };
+            imitationartist = new string[] { "ミストル", "KAMO-BOON", "オカチャンズ", "レキシ", "ゲス" };
         }
 
 
@@ -273,8 +275,8 @@ namespace WaveApplication
                         // グラフにポイントを追加
                         chart1.Series[legend].Points.Add(dp);
                     }
-                label1.Text = "注目アーティスト："+artist[artistlabel]+"のツイート推移";
-                linkLabel1.Text = artist[artistlabel];
+                label1.Text = "注目アーティスト："+imitationartist[artistlabel]+"のツイート推移";
+                linkLabel1.Text = imitationartist[artistlabel];
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -318,7 +320,7 @@ namespace WaveApplication
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.perfume-web.jp/");
+            System.Diagnostics.Process.Start("http://www.waseda.jp/rps/incubation/event/appcon4/entry.html");
         }
     }
     class Tweet
